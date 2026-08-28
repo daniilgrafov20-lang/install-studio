@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "Porsche 911 GT3 RS",
+    "category": "Полірування",
+    "description": "Повне полірування кузова із захистом нанокерамікою",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=1200&h=800&fit=crop"
+    ],
+    "specs": "911 GT3 RS 2023 • Black Metallic • PPF + Ceramic"
+  },
+  {
+    "id": 2,
+    "title": "BMW M5 F90",
+    "category": "Захисна плівка",
+    "description": "Захисна плівка на передній бампер, фари, дах",
+    "image": "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=1200&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=1200&h=900&fit=crop"
+    ],
+    "specs": "M5 F90 2022 • Alpine White • PPF Protection"
+  },
+  {
+    "id": 3,
+    "title": "Porsche Macan Turbo",
+    "category": "Керамічне покриття",
+    "description": "Нанокераміка 9H із захистом від УФ та хімічних реагентів",
+    "image": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=1200&h=800&fit=crop"
+    ],
+    "specs": "Macan Turbo 2023 • Jet Black • 9H Ceramic Coating"
+  },
+  {
+    "id": 4,
+    "title": "Tesla Model S Plaid",
+    "category": "Комплекс",
+    "description": "Повний комплекс: полірування + PPF + керамика",
+    "image": "https://images.unsplash.com/photo-1560958089-b8a46dd52f3e?w=1200&h=800&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1560958089-b8a46dd52f3e?w=1200&h=800&fit=crop"
+    ],
+    "specs": "Model S Plaid 2023 • Pearl White • Full Protection"
+  }
+]
