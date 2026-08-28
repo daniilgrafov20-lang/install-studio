@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InStall Studio — Премиум детейлінг автомобілів у Києві</title>
+  <meta name="description" content="Професійний детейлінг, полірування, захисна плівка, кераміка та хімчистка в Києві">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<!-- PROGRESS BAR -->
+<div class="progress-bar"></div>
+
+<!-- HEADER -->
+<header class="header" data-header>
+  <div class="header-content">
+    <div class="logo">InStall</div>
+    <nav class="nav-menu">
+      <a href="#projects" class="nav-link">РОБОТИ</a>
+      <a href="#services" class="nav-link">ПОСЛУГИ</a>
+      <a href="#about" class="nav-link">ПРО НАС</a>
+      <a href="#contact" class="nav-link">КОНТАКТИ</a>
+    </nav>
+    <a href="tel:+380937232323" class="phone-link">093 723 23 23</a>
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&h=1080&fit=crop" alt="Luxury car detailing" loading="lazy">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">
+      <span class="hero-line">ДЕТЕЙЛІНГ,</span>
+      <span class="hero-line">ЯКИЙ ВИДНО</span>
+    </h1>
+    <p class="hero-subtitle">Професійний догляд за автомобілем у Києві</p>
+    <button class="cta-btn hero-cta" data-scroll-to="#projects">ПЕРЕГЛЯНУТИ РОБОТИ</button>
+  </div>
+  <div class="scroll-indicator">
+    <span>SCROLL</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- INTRO SECTION -->
+<section class="intro" id="about">
+  <div class="intro-container">
+    <div class="intro-content">
+      <h2 class="section-title">Автомобіль може виглядати інакше.</h2>
+      <p class="intro-text">Ми повертаємо автомобілю стан, який хочеться зберегти.</p>
+      <p class="intro-subtext">Кожний деталь має значення. Кожна крива, кожен відблиск. Наша робота — це обслуговування не просто автомобіля, а символу вашого смаку та ставлення до якості.</p>
+    </div>
+    <div class="intro-image">
+      <img src="https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=800&h=600&fit=crop" alt="Premium car care" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE/AFTER SECTION -->
+<section class="before-after-section" id="before-after">
+  <h2 class="section-title">До та Після</h2>
+  <div class="before-after-container">
+    <div class="before-after-slider" data-slider>
+      <div class="before-after-wrapper">
+        <img class="before-img" src="https://images.unsplash.com/photo-1564345590681-a19fb00bcc75?w=1200&h=800&fit=crop" alt="Before polishing">
+        <div class="after-overlay">
+          <img class="after-img" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&h=800&fit=crop" alt="After polishing">
+        </div>
+        <div class="slider-handle" data-handle>
+          <div class="slider-line"></div>
+          <span class="label before-label">ДО</span>
+          <span class="label after-label">ПІСЛЯ</span>
+        </div>
+      </div>
+    </div>
+    <p class="before-after-caption">Полірування кузова — усунення оптичних дефектів без шкоди для лаку</p>
+  </div>
+</section>
+
+<!-- PROJECTS GRID SECTION -->
+<section class="projects-section" id="projects">
+  <h2 class="section-title">Наші Роботи</h2>
+  <div class="projects-grid" data-projects-grid>
+    <!-- Dynamically loaded from API -->
+  </div>
+</section>
+
+<!-- LIGHTBOX GALLERY -->
+<div class="lightbox" data-lightbox>
+  <div class="lightbox-content">
+    <button class="lightbox-close" data-close-lightbox>✕</button>
+    <button class="lightbox-prev" data-prev-image>←</button>
+    <img class="lightbox-image" src="" alt="">
+    <button class="lightbox-next" data-next-image>→</button>
+    <div class="lightbox-counter">
+      <span class="current">1</span> / <span class="total">6</span>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES SECTION -->
+<section class="services-section" id="services">
+  <h2 class="section-title">Наші Послуги</h2>
+  <div class="services-accordion" data-accordion>
+    <!-- Dynamically loaded from API -->
+  </div>
+  <p class="services-note">Вартість розраховується індивідуально залежно від стану авто</p>
+</section>
+
+<!-- REVIEWS SECTION -->
+<section class="reviews-section" id="reviews">
+  <h2 class="section-title">Відгуки Клієнтів</h2>
+  <div class="reviews-grid" data-reviews>
+    <!-- Dynamically loaded from API -->
+  </div>
+</section>
+
+<!-- CONTACT/LEAD SECTION -->
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="contact-content">
+      <h2 class="contact-title">
+        <span>ГОТОВІ ПОКАЗАТИ,</span>
+        <span>ЯК МОЖЕ ВИГЛЯДАТИ</span>
+        <span>ВАШ АВТОМОБІЛЬ?</span>
+      </h2>
+      <form class="lead-form" data-form>
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Ім'я" required data-input="name">
+          <span class="form-error" data-error="name"></span>
+        </div>
+        <div class="form-group">
+          <input type="tel" name="phone" placeholder="+380 (XX) XXX-XX-XX" required data-input="phone">
+          <span class="form-error" data-error="phone"></span>
+        </div>
+        <div class="form-group">
+          <select name="service" required data-input="service">
+            <option value="">Оберіть послугу</option>
+            <option value="Полірування">Полірування</option>
+            <option value="Захисна плівка">Захисна плівка</option>
+            <option value="Кераміка">Кераміка</option>
+            <option value="Хімчистка">Хімчистка</option>
+            <option value="Комплекс">Комплекс послуг</option>
+          </select>
+          <span class="form-error" data-error="service"></span>
+        </div>
+        <div class="form-group">
+          <textarea name="comment" placeholder="Модель авто / коментар (опціонально)" data-input="comment"></textarea>
+        </div>
+        <button type="submit" class="cta-btn form-submit">НАДІСЛАТИ ЗАПИТ</button>
+        <span class="form-message" data-message></span>
+      </form>
+    </div>
+    <div class="contact-info">
+      <h3>Свяжіться з нами:</h3>
+      <div class="info-block">
+        <h4>Телефон</h4>
+        <a href="tel:+380937232323">093 723 23 23</a>
+      </div>
+      <div class="info-block">
+        <h4>Адреса</h4>
+        <p>м. Київ, вул. Березняківська 29-Б</p>
+      </div>
+      <div class="info-block">
+        <h4>Telegram</h4>
+        <a href="https://t.me/install_studio" target="_blank">@install_studio</a>
+      </div>
+      <div class="info-block">
+        <h4>Instagram</h4>
+        <a href="https://www.instagram.com/install_studio_kyiv/" target="_blank">@install_studio_kyiv</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>&copy; 2024 InStall Studio. Всі права захищені.</p>
+</footer>
+
+<!-- Scripts -->
+<script type="module" src="/js/app.js"></script>
+<script type="module" src="/js/gsap-animations.js"></script>
+<script type="module" src="/js/before-after.js"></script>
+<script type="module" src="/js/lightbox.js"></script>
+
+</body>
+</html>
