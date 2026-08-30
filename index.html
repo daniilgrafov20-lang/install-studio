@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>InStall Studio — Premium Detailing Kyiv</title>
+  <meta name="description" content="InStall Studio — преміум детейлінг для люксових авто. Полірування, PPF, кераміка.">
+  <!-- Fonts (premium pairing: serif headline + neutral UI) -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/vars.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/hero.css">
+  <link rel="stylesheet" href="/assets/css/services.css">
+</head>
+<body>
+
+  <!-- Progress bar -->
+  <div class="progress-bar" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="InStall Studio">InStall</a>
+
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#projects" data-scroll-to="#projects">Роботи</a></li>
+          <li><a class="nav-link" href="#services" data-scroll-to="#services">Послуги</a></li>
+          <li><a class="nav-link" href="#about" data-scroll-to="#about">Про нас</a></li>
+          <li><a class="nav-link" href="#contact" data-scroll-to="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone" href="tel:+380937232323">093 723 23 23</a>
+        <button class="menu-toggle" aria-expanded="false" aria-label="Відкрити меню">
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu (full screen) -->
+    <div class="mobile-menu" data-mobile-menu>
+      <ul>
+        <li><a href="#projects" data-scroll-to="#projects">Роботи</a></li>
+        <li><a href="#services" data-scroll-to="#services">Послуги</a></li>
+        <li><a href="#about" data-scroll-to="#about">Про нас</a></li>
+        <li><a href="#contact" data-scroll-to="#contact">Контакти</a></li>
+        <li><a href="https://t.me/install_studio" target="_blank" rel="noopener">Telegram</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero" aria-label="Hero section">
+      <div class="hero-media">
+        <img class="hero-bg" src="/assets/img/hero-lux.jpg" alt="Luxury car detail" loading="eager">
+      </div>
+
+      <!-- Headlight beams (decorative) -->
+      <div class="headlight headlight-left" aria-hidden="true"></div>
+      <div class="headlight headlight-right" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="display-line">ДЕТЕЙЛІНГ</span>
+          <span class="display-line highlight">ЯКИЙ ВИДНО</span>
+        </h1>
+        <p class="hero-sub">Преміум догляд для автомобілів рівня Porsche • Mansory</p>
+        <div class="hero-cta">
+          <a class="btn btn-ghost" href="#projects" data-scroll-to="#projects">ПЕРЕГЛЯНУТИ РОБОТИ</a>
+          <a class="btn btn-gold" href="#contact" data-scroll-to="#contact">ЗАПИТАТИ ОЦІНКУ</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services" aria-label="Наші послуги">
+      <div class="container">
+        <h2 class="section-title">Послуги преміум-рівня</h2>
+        <p class="section-sub">Індивідуальні рішення для збереження та підсилення зовнішнього вигляду.</p>
+
+        <div class="services-grid" role="list">
+          <article class="service-card" role="listitem">
+            <div class="card-media">
+              <img src="/assets/img/service-polish.jpg" alt="Полірування — ілюстрація" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>Полірування & Відновлення</h3>
+              <p class="muted">Глибока корекція лакофарбового покриття, mirror finish.</p>
+              <a class="card-link" href="#contact" data-scroll-to="#contact">Дізнатись ціну →</a>
+            </div>
+          </article>
+
+          <article class="service-card" role="listitem">
+            <div class="card-media">
+              <img src="/assets/img/service-ppf.jpg" alt="Захисна плівка PPF" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>Захисна плівка PPF</h3>
+              <p class="muted">Невидимий захист від каміння, подряпин і реагентів.</p>
+              <a class="card-link" href="#contact" data-scroll-to="#contact">Дізнатись ціну →</a>
+            </div>
+          </article>
+
+          <article class="service-card" role="listitem">
+            <div class="card-media">
+              <img src="/assets/img/service-ceramic.jpg" alt="Керамічне покриття 9H" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>Кераміка 9H</h3>
+              <p class="muted">Максимальна водо- та брудовідштовхувальна дія, тривалий блиск.</p>
+              <a class="card-link" href="#contact" data-scroll-to="#contact">Дізнатись ціну →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Placeholder for remaining sections -->
+    <section id="projects" style="min-height:40vh;scroll-margin-top:var(--header-height);"></section>
+    <section id="about" style="min-height:40vh;scroll-margin-top:var(--header-height);"></section>
+    <section id="contact" style="min-height:40vh;scroll-margin-top:var(--header-height);"></section>
+  </main>
+
+  <script type="module" src="/assets/js/init.js"></script>
+</body>
+</html>
